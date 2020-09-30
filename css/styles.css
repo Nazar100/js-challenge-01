@@ -1,0 +1,44 @@
+body {
+  margin: 0px;
+  padding: 250px;
+  background-image: url(https://i1.wp.com/trapital.co/wp-content/uploads/2019/07/DeDtG0OV0AA5LML.jpeg?resize=700%2C466&ssl=1);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.keys {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.key {
+  border: 0.4rem solid white;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem 0.5rem;
+  transition: all 0.07s ease;
+  width: 100px;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  text-shadow: 0 0 0.5rem black;
+}
+.key.active {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  display: inline-block;
+  font-size: 30px;
+  color: orange;
+}
